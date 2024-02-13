@@ -20,3 +20,37 @@ By the end of the course, you will have a solid foundation in Node.js and be rea
   > Node.js became popular quickly because it could handle a large number of concurrent connections with high throughput. It was also popular because it allowed developers to use JavaScript on the server-side, which was already familiar to many front-end developers. As Node.js gained popularity, the Node.js community grew, and many new modules and frameworks were developed to extend its capabilities.
 - Node.js Today:
   > Node.js is now a mature and stable platform used by many companies to build high-performance network applications. It has a large and active community of developers who continue to develop new modules and frameworks to extend its capabilities. Node.js is often used in combination with other technologies, such as databases, front-end frameworks, and cloud platforms, to build full-stack web applications.
+### Non blocking I/O
+### Hello World
+### Browser vs Node.js
+### Node REPL
+
+## 2. Creating a Command Line Interface (CLI)
+### Process and Environment
+### What is a CLI?
+### Creating a CLI
+
+## 3. Modules
+### What is a module
+### Require vs Import
+### Thinking in Modules
+### Internal Modules
+### NPM and 3rd Party Modules
+### Using yargs
+
+## 4. File I/O
+### Async in node
+### The FS module
+### Using a file as a DB
+### Note CRUD
+### Updating commands
+
+## 5. Testing
+### Types of tests
+### Unit Testing with Jest
+
+## 6. Servers
+### What is a server
+### Vanilla server
+### Recap
+
