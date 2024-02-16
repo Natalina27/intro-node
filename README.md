@@ -153,6 +153,10 @@ console.log('Hello World!')
 JavaScript is used in both the browser and Node.js, but there are significant differences in how it works in each environment. However, there are also many similarities, and if you already know JavaScript, you should be able to quickly pick up Node.js. Understanding the differences and similarities between the two environments is crucial when developing applications in either of them.
 
 ### Node REPL
+The Node REPL (Read-Eval-Print Loop) is a command-line interface that allows you to interactively run JavaScript code. It is similar to the browser console, but it runs on the server side. You can use the Node REPL to quickly test JavaScript code, experiment with new features, and debug issues.
+
+To start the Node REPL, simply open your terminal and type node. 
+This will give you access to the Node REPL, where you can run JavaScript code interactively.
 
 ## 2. Creating a Command Line Interface (CLI)
 ### Process and Environment
