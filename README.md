@@ -185,7 +185,7 @@ If we run this script with the command `node script.js arg1 arg2`, the output wi
 
 This shows that the `process.argv` array contains the path to the Node.js executable, the path to the script being run, and the two arguments passed to the script.
 
-## Environment
+#### Environment
 
 The environment in Node.js refers to the set of variables that are available to a program at runtime. These variables are stored in the `process.env` object, which is an object containing key-value pairs of environment variable names and values.
 
@@ -207,8 +207,73 @@ This shows that we can access the value of the `NODE_ENV` environment variable u
 #### Conclusion
 
 In conclusion, understanding the process and environment in Node.js is crucial for building scalable and high-performance applications. By using the process object and environment variables, developers can access and manipulate the runtime environment of their programs.
-### What is a CLI?
-### Creating a CLI
+
+### Custom CLI Setup
+
+#### What is a CLI?
+
+A Command-Line Interface (CLI) is a text-based interface that allows users to interact with a computer program or operating system by typing in text commands. 
+A CLI is a powerful tool for developers and system administrators to perform various tasks quickly and efficiently.
+Using CLI commands in bash is easy. 
+For example, to list the contents of a directory, you can use the **_ls_** command. 
+To change directories, you can use the **_cd_** command. 
+To remove a file, you can use the **_rm_** command. 
+These commands can also be combined with flags and arguments to perform more specific actions.
+Flags are options that modify the behavior of a command.
+For example, the **_-a_** flag can be used with the **_ls_** command to show hidden files. 
+Arguments, on the other hand, are values or inputs that are provided to a command. 
+For example, the **_mkdir**_ command requires an argument that specifies the name of the directory to be created.
+Creating a CLI in Node.js is a popular choice for developers. 
+It allows you to create a custom CLI that can be used to perform specific tasks. 
+You can use third-party libraries such as commander and yargs to create a CLI in Node.js. 
+These libraries provide an easy way to parse arguments and flags and execute commands.
+When creating a CLI, you need to decide whether it should be installed globally or locally. 
+A global installation allows the CLI to be used from any directory on your system, while a local installation requires the user to be in the directory where the CLI is installed.
+Installing CLIs is easy. 
+You can use the **_npm_** command to install a CLI from the Node.js package manager. 
+For example, to install the create-react-app CLI globally, you can use the following command:
+
+```bash
+npm install -g create-react-app
+```
+#### Creating a CLI
+
+```bash
+npm init  
+``` 
+or 
+
+```bash
+npm init  --yes
+```
+
+This utility will walk you through creating a package.json file.
+It only covers the most common items, and tries to guess sensible defaults.
+
+See `npm help init` for definitive documentation on these fields
+and exactly what they do.
+
+Use `npm install <pkg>` afterwards to install a package and
+save it as a dependency in the package.json file.
+
+```bash
+which node 
+```
+```bash
+npm link 
+```
+```bash
+npm link --force
+```
+
+```bash
+npm link <package-name>
+```
+```bash
+npm unlink <package-name>
+```
+
+
 
 ## 3. Modules
 ### What is a module
