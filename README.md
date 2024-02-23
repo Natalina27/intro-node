@@ -272,7 +272,11 @@ npm link <package-name>
 ```bash
 npm unlink <package-name>
 ```
-
+case: syntax error near unexpected token `'Hello world!''
+So in this case, we want to use this one or is this like this:
+```js
+#!/user/bin/env node
+```
 
 
 ## 3. Modules
