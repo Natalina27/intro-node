@@ -1,5 +1,4 @@
-﻿// TODO - doesn't work
-// #!/usr/bin/env node
+﻿#!/usr/bin/env node
 
 console.log('Hello world!')
 
