@@ -1,7 +1,6 @@
-﻿#!/usr/bin/env node
+#!/usr/bin/env node
 
 console.log('Hello world!')
-
 //alert('Hello world!') //ReferenceError: alert is not defined
 // console.log(window) //browser -> ReferenceError: window is not defined
 
@@ -17,7 +16,7 @@ console.log('Hello world!')
 
 //ENV
 // console.log('process.env', process.env)
-// console.log(process.env.NODE_ENV)
+//console.log(process.env.NODE_ENV)
 
 //EXIT
 // console.log('process.argv', process.exit())
