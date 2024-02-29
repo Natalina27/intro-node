@@ -2,13 +2,16 @@
 
 console.log('Hello world!')
 
-// const note = process.argv[2]
-// const newNote = {
-//     content: note,
-//     id: Date.now()
-// }
-//
-// console.log('newNote', newNote)
+const note = process.argv[2]
+const newNote = {
+    content: note,
+    id: Date.now(),
+    id1: new Date().valueOf(),
+    id2: new Date().getTime()
+}
+console.log('process.argv', process.argv)
+console.log('note', note)
+console.log('newNote', newNote)
 
 //alert('Hello world!') //ReferenceError: alert is not defined
 // console.log(window) //browser -> ReferenceError: window is not defined
