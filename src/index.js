@@ -1,5 +1,7 @@
 #!/usr/bin/env node
 import {count} from './utils.js'
+import fs from 'fs'
+
 
 console.log('Hello world!')
 console.log(count(5))

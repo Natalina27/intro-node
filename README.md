@@ -406,6 +406,23 @@ In this example, we create a module called `math.js` that exports a named functi
 Modules are an essential part of Node.js development, and understanding how to create, import, and export them is crucial to building efficient and scalable applications.
 
 ### Importing and Exporting Modules
+```js
+import {count} from './utils.js' 
+```
+===
+```js
+const {count} = require('./utils.js')
+```
+
+```js
+export const count = num => num
+```
+===
+```js
+exports.count = num => num
+```
+
+
 ### Thinking in Modules
 ### Internal and 3rd Party Modules
 ### Using yargs
