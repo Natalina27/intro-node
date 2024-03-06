@@ -1,9 +1,17 @@
 #!/usr/bin/env node
 import * as utils from './utils/index.js'
 import fs from 'fs'
+import http from 'http'
 // import _ from 'lodash'
 
+fs.readFile('file.txt', (err, data) => {
+    if (err) throw err;
+    console.log(data);
+})
+
+
 console.log('utils', utils)
+
 
 console.log('Hello world!')
 console.log(utils.count(5))
