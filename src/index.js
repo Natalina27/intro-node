@@ -1,20 +1,22 @@
 #!/usr/bin/env node
-import {count} from './utils.js'
+import * as utils from './utils/index.js'
 import fs from 'fs'
+// import _ from 'lodash'
 
+console.log('utils', utils)
 
 console.log('Hello world!')
-console.log(count(5))
-// const note = process.argv[2]
-// const newNote = {
-//     content: note,
-//     id: Date.now(),
-//     id1: new Date().valueOf(),
-//     id2: new Date().getTime()
-// }
+console.log(utils.count(5))
+const note = process.argv[2]
+const newNote = {
+    content: note,
+    id: Date.now(),
+    id1: new Date().valueOf(),
+    id2: new Date().getTime()
+}
 // console.log('process.argv', process.argv)
 // console.log('note', note)
-//console.log('newNote', newNote)
+console.log('newNote', newNote)
 
 // (function() {
 //     console.log('IIFE')
