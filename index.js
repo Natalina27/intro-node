@@ -1,17 +1,22 @@
 #!/usr/bin/env node
-import * as utils from './utils/index.js'
+import './src/command.js'
+
+import * as utils from './src/utils/index.js'
 import fs from 'fs'
 import http from 'http'
 // import _ from 'lodash'
 
+console.log('=========================')
 fs.readFile('file.txt', (err, data) => {
     if (err) throw err;
     console.log(data);
 })
 
+console.log('=========================')
 
 console.log('utils', utils)
 
+console.log('=========================')
 
 console.log('Hello world!')
 console.log(utils.count(5))
